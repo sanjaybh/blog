@@ -1,0 +1,89 @@
+1995 - Introduction to JS to world
+
+React JS - 2011 developed by facebook
+
+(https://www.youtube.com/watch?v=OoS5AK6qz1Q)
+----------------
+MVC - Controller controls things, whole DOM was reloaded
+KVO - Key value observation
+	2-Way Binding - Knockout JS and Amber JS
+	Loop/Dirty loop - Dataset and View/interface gets changed - Angular JS
+	
+React Library
+	Components are reusable and can be nested
+	we build complex UI with components
+
+	2:18 -> DOM - Logical structure of your document, updating dom is slow because browser takes time to render HTML, laying out things, calculating positions and css and all.
+
+	Virtual dom helps to reduce this thing, VD is the JS object that memics the actual DOM and abstracts out the actual heavy lifting copy dom
+
+	React Utilizes this concept of VD and with the help of this it just updates only the portion of actual dom which is necessary
+
+	If something has changed in your data model it just rerenders the virtual dom, which is just a plain JS object
+	then finds the difference between the current state and the previous state of this virtual dom and go and update the actual dom if there is any difference.
+
+	Advantages
+	#. This improves the performance and does rendering of the app as fast.
+
+	#. We do not manage the changes in DOM, this is managed by React for us.
+
+	#. it can be rendered on server-side as well, because it is based on VD, you just change the rendering logic and it just works - we have react native to create mobile apps.
+	
+--------
+https://www.youtube.com/watch?v=DLX62G4lc44
+
+⭐️Course Contents ⭐️ 
+->(0:00:00) Course Introduction & Philosophy 
+->(0:05:22) What we'll be building 
+->(0:06:24) Why React? 
+->(0:09:25) ReactDOM & JSX 
+->(0:16:19) ReactDOM & JSX Practice 
+->(0:20:34) Functional Components 
+->(0:24:32) Functional Components Practice 
+->(0:29:41) Move Components into Separate Files 
+->(0:35:07) Parent/Child Components 
+->(0:43:14) Parent/Child Component Practice 
+->(0:48:12) Todo App - Phase 1 
+->(0:50:50) Styling React with CSS Classes 
+->(0:55:56) Some Caveats 
+->(0:58:12) JSX to JavaScript and Back 
+->(1:02:11) Inline Styles with the Style Property 
+->(1:09:21) Todo App - Phase 2 
+->(1:12:42) Props Part 1 - Understanding the Concept 
+->(1:14:56) Props Part 2 - Reusable Components 
+->(1:17:29) Props in React 
+->(1:29:39) Props and Styling Practice 
+->(1:40:25) Mapping Components 
+->(1:48:27) Mapping Components Practice 
+->(1:53:44) Todo App - Phase 3 
+->(1:58:16) Class-based Components 
+->(2:03:32) Class-based Components Practice 
+->(2:07:11) State 
+->(2:12:08) State Practice 
+->(2:15:45) State Practice 2 
+->(2:19:59) Todo App - Phase 4 
+->(2:22:05) Handling Events in React 
+->(2:25:52) Todo App - Phase 5 
+->(2:27:11) Changing State  
+->(2:39:29) Todo App - Phase 6 
+->(2:47:14) Lifecycle Methods Part 1 
+->(2:56:45) Lifecycle Methods Part 2 
+->(3:00:07) Conditional Rendering 
+->(3:11:26) Conditional Rendering Part 2 
+->(3:14:21) Conditional rendering Practice 
+->(3:23:00) Todo App - Phase 7 
+->(3:25:34) Fetching data from an API 
+->(3:36:34) Forms Part 1 
+->(3:48:55) Forms Part 2 
+->(4:00:11) Forms Practice 
+->(4:24:29) Container/Component Architecture 
+->(4:35:53) Meme Generator Capstone Project 
+->(4:56:11) Writing Modern React Apps 
+->(5:02:17) Project Ideas for Practicing 
+->(5:03:06) Conclusion
+
+
+Functional components vs Class Components
+
+
+
